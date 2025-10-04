@@ -1,51 +1,16 @@
-# Portfolio
+# React + Vite
 
-A modern, responsive portfolio website showcasing my projects and technical skills.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Responsive design that works on all devices
-- Smooth scrolling navigation
-- Animated project cards
-- Featured projects section
-- Clean and professional UI
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Projects Featured
+## React Compiler
 
-1. **Personal Chatbot** - AI-powered chat application with intelligent agents
-2. **Hiver Email Manager** - Intelligent email management with AI-powered responses
-3. **RightIntake** - Enterprise-level production application
-4. **AI Chat Application** - Real-time AI chat with context awareness
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Tech Stack
+## Expanding the ESLint configuration
 
-- HTML5
-- CSS3 (with CSS Variables)
-- Vanilla JavaScript
-- Google Fonts (Inter)
-
-## Getting Started
-
-Simply open `index.html` in your web browser to view the portfolio.
-
-For development with live reload, you can use:
-
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js http-server
-npx http-server
-```
-
-Then visit `http://localhost:8000` in your browser.
-
-## Customization
-
-- Update project information in `index.html`
-- Modify colors and styles in `styles.css` (CSS variables in `:root`)
-- Add your email and social links in the contact section
-
-## License
-
-MIT License - feel free to use this template for your own portfolio!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
